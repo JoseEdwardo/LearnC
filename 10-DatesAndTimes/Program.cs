@@ -23,10 +23,10 @@ namespace _10_DatesAndTimes
 
             //Console.WriteLine(myValue.Month);
 
-            //DateTime myBirthday = new DateTime(1969, 12, 7);
+            //DateTime myBirthday = new DateTime(2005, 05, 23);
             //Console.WriteLine(myBirthday.ToShortDateString());
 
-            DateTime myBirthday = DateTime.Parse("12/7/1969");
+            DateTime miCumpleaños = DateTime.Parse("23/05/2005");
             TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
             Console.WriteLine(myAge.TotalDays);
 
